@@ -25,6 +25,10 @@ python3 api_desbloqueio.py
 
 A API ficará disponível em http://localhost:5000.
 
+Para que funcione com o flutter web hospedado é preciso estar rodando com https, por isso configurado para rodar no ngrok
+
+`snap run ngrok http 5000`
+
 Faça uma requisição POST para o endpoint `/desbloquear`:
 
 Exemplo de payload:
